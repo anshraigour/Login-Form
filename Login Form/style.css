@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ body{
+    background: url(bg.jpg) ;
+    background-size: cover ;
+ }
+ .container{
+    
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 40%;
+ }
+ .container h1
+ {
+   
+    display: inline-block;
+    font-size: 40px; 
+    padding: 13px 0;
+ }
+ .box
+ {
+    width: 100%;
+    margin:22px 0px;
+    border: 2px solid rgb(245, 218, 156);
+ }
+ .box i{
+    width: 25px;
+    text-align: center;
+ }
+ .box input{
+    width: 75%; 
+    background: none;
+    padding: 5px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: snow;
+ }
+ .btn{
+    color: aliceblue;
+     cursor: pointer;
+     outline: none;
+     margin: 12px 0;
+     padding: 10px 21px;
+     border: 2px solid white;
+     border-radius: 10px;
+     font-size: 18px;
+     background: none;
+     font-weight: bold;
+
+ }  
+ .btn hover{
+    opacity: 0.5;
+    color: aliceblue;
+    background: white;
+ }
